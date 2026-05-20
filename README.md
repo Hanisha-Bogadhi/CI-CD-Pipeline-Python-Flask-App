@@ -375,7 +375,7 @@ git push
 3. GitHub Actions automatically runs tests
 4. Render automatically redeploys updated application
 
-![Final CI/CD proof](screenshots/complete-cicd-proof.png))
+![Final CI/CD proof](screenshots/complete-cicd-proof.png)
 ---
 
 # 📸 Screenshots
