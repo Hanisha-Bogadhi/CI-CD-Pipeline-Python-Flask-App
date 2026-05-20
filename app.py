@@ -1,0 +1,17 @@
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "E-Commerce DevOps App Running 🚀"
+
+@app.route("/products")
+def products():
+    return jsonify([
+        {"id": 1, "name": "Shirt", "price": 500},
+        {"id": 2, "name": "Shoes", "price": 1200}
+    ])
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
