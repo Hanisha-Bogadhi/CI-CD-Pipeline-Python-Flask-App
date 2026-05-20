@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "E-Commerce DevOps App Running 🚀"
+    return "Version 2 Deployed 🚀"
 
 @app.route("/products")
 def products():
